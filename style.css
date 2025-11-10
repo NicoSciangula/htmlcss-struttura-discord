@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****************** STRUTTURA HEADER *********************/
+.container-header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(109, 208, 208);
+    padding: 1.2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    width: 70%;
+    border: 1px dashed black;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    width: 60%;
+    border: 1px dashed black;
+}
+
+span {
+    border: 1px dashed black;
+    display: inline-block;
+    width: 20%;
+}
+
+.login {
+    text-align: right;
+}
+
+header ul,
+span {
+    padding: 0.4rem;
+}
+
+/***************** STRUTTURA MAIN ********************/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+.bg-blue {
+    background-color: blue;
+    padding: 2.5rem;
+}
+
+.container .purple-block {
+    width: 650px;
+    height: 350px;
+    background-color: rgb(204, 166, 240);
+    border-radius: 5px;
+}
+
+.bg-white {
+    background-color: white;
+    padding: 2.5rem 0;
+}
+
+
+.blue-block {
+    width: 550px;
+    height: 400px;
+    background-color: rgb(25, 165, 224);
+}
+
+.pink-block {
+    width: 350px;
+    height: 400px;
+    background-color: pink;
+}
+
+.bg-grey {
+    background-color: rgb(189, 186, 186);
+    padding: 2.5rem;
+}
+
+.green-block {
+    width: 900px;
+    height: 750px;
+    background-color: green;
+}
+
+.bg-dark {
+    background-color: rgb(26, 26, 26);
+    padding-bottom: 2.5rem;
+    padding-top: 0.5rem;
+}
+
+.red-column {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+}
+
+.bs-column {
+    width: 150px;
+    height: 400px;
+    background-color: rgb(11, 165, 165);
+    border-color: white;
+}
