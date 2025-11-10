@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: orange;
-    width: 70%;
+    width: 40%;
     border: 1px dashed black;
 
 }
@@ -31,7 +31,7 @@ header ul {
     border: 1px dashed black;
 }
 
-span {
+header span {
     border: 1px dashed black;
     display: inline-block;
     width: 20%;
@@ -42,7 +42,7 @@ span {
 }
 
 header ul,
-span {
+header span {
     padding: 0.4rem;
 }
 
@@ -123,4 +123,38 @@ main {
     height: 400px;
     background-color: rgb(11, 165, 165);
     border-color: white;
+}
+/***************** STRUTTURA FOOTER ********************/
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
+    padding-top: 1.5rem;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 255, 174);
+    width: 40%;
+}
+
+.logo-footer,
+.button-footer {
+    margin: 1rem 0;
+    background-color: rgb(241, 124, 124);
+    border: 2px dashed black;
+}
+
+.logo-footer {
+    padding: 0.2rem 0.5rem;
+
+}
+
+.button-footer {
+    padding: 0.2em 0.5em;
+    font-size: 16px;
+
 }
